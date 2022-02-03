@@ -1,0 +1,5 @@
+.builder-container {
+    min-height: calc(100vh - 64px);
+    padding: 30px;
+    background-image: linear-gradient(to right, #9a74f6, #440ccc);
+}

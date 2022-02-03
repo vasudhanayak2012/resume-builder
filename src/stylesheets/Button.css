@@ -1,0 +1,24 @@
+.next-button{
+    background-color:#440ccc;
+    color: white;
+}
+
+.next-button:hover{
+    background-color: #361fa7;
+    color: white;
+}
+
+.previous-button{
+    border: 1px solid #440ccc;
+    color: #440ccc;
+}
+
+.previous-button:hover{
+    color: white;
+    background-color: #440ccc;
+}
+
+.prev-next{
+    display: flex;
+    justify-content: flex-end;
+}

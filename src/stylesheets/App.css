@@ -1,0 +1,21 @@
+.mui-btn{
+    text-transform: none;
+}
+
+.mui-btn:hover{
+    box-shadow: none;
+}
+
+.mui-row{
+    margin: 0;
+}
+
+.mui-textfield>input:focus, .mui-textfield>textarea:focus{
+    border-color: #440ccc;
+    color: black;
+}
+
+.text-field>input:focus+label, .text-field>input:active+label, 
+.text-field>textarea:focus+label, .text-field>textarea:active+label {
+    color: #440ccc;
+}
