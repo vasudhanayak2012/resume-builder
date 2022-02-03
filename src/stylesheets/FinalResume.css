@@ -1,0 +1,36 @@
+.final-resume-container{
+    min-height:calc(100vh - 64px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #9a74f6, #440ccc);
+}
+
+.final-resume-box{
+    min-height: 70%;
+    width: 60vw;
+    padding: 30px 10px;
+    background-color: white;
+    position: relative;
+}
+
+.final-resume-box h3{
+    background: #f6f6f6;
+    padding: 10px 5px;
+}
+
+.value-field {
+    padding: 10px 15px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-photo{
+    height: 200px;
+    margin-top: 70px;
+    border-radius: 50%;
+}

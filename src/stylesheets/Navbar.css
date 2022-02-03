@@ -1,0 +1,63 @@
+.header-container{
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px 15px 1px grey;
+    font-size: 16px;
+}
+
+.mui-appbar{
+    background-color: white;
+    color: black;
+}
+
+.builderName, .login{
+    margin : 0 20px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.option{
+    margin: 0 20px;
+}
+
+.option-name:hover{
+    text-decoration: underline;
+}
+
+.dropdown-options li a{
+    padding: 15px 10px;
+}
+
+.dropdown-options li a:hover{
+    background-color: #ede9f9;
+}
+
+.dropdown-options {
+    padding: 10px;
+    margin-top: 10px;
+}   
+
+.login-button{
+    border: 1px solid #440ccc;
+    color: #440ccc;
+}
+
+.login-button:hover{
+    color: white;
+    background-color: #440ccc;
+}
+
+img {
+cursor: pointer;
+} 
